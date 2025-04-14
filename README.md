@@ -10,7 +10,8 @@ OpenBook este un dispozitiv e-reader open-source, bazat pe microcontrollerul ESP
 
 ## Diagramă de Bloc
 
-![image](https://github.com/user-attachments/assets/cab706cd-0e61-4ba3-af78-f6f3ed0227dc)
+![image](https://github.com/user-attachments/assets/73321fdc-fcb5-4e21-9802-32a2912f6943)
+
 
 
 # Lista de componente
