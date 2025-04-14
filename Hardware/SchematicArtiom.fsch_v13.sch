@@ -155,7 +155,7 @@
 <text x="-0.635" y="0.635" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.635" y="-1.905" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="112ATAARR03ATTEND" urn="urn:adsk.eagle:footprint:47622076/1" library_version="23">
+<package name="112ATAARR03ATTEND" urn="urn:adsk.eagle:footprint:47622076/1" library_version="54">
 <description>&lt;b&gt;112A-TAAR-R03 ATTEND-1&lt;/b&gt;&lt;br&gt;</description>
 <wire x1="0.07" y1="-4.5" x2="14.07" y2="-4.5" width="0.2" layer="51"/>
 <wire x1="14.07" y1="-4.5" x2="14.07" y2="10.7" width="0.2" layer="51"/>
@@ -1009,7 +1009,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <smd name="2" x="1.1" y="0" dx="1.4" dy="1.4" layer="1"/>
 <smd name="1" x="-1.1" y="0" dx="1.4" dy="1.4" layer="1"/>
 </package>
-<package name="TP20R" urn="urn:adsk.eagle:footprint:47622079/1" library_version="51">
+<package name="TP20R" urn="urn:adsk.eagle:footprint:47622079/1" library_version="54">
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
 <smd name="TP" x="0" y="0" dx="2" dy="2" layer="1" roundness="100" cream="no"/>
 <text x="-1" y="1.05" size="1.27" layer="25">&gt;NAME</text>
@@ -1029,7 +1029,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <packageinstance name="ESP32_WROVER_EAGLE-LTSPICE_R0402"/>
 </packageinstances>
 </package3d>
-<package3d name="112ATAARR03ATTEND" urn="urn:adsk.eagle:package:47622084/2" type="model">
+<package3d name="112ATAARR03ATTEND" urn="urn:adsk.eagle:package:47842889/1" type="model">
 <description>&lt;b&gt;112A-TAAR-R03 ATTEND-1&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="112ATAARR03ATTEND"/>
@@ -1199,7 +1199,7 @@ Source: www.farnell.com/datasheets/49238.pdf</description>
 <packageinstance name="CAPCP3225X100N"/>
 </packageinstances>
 </package3d>
-<package3d name="TP20R" urn="urn:adsk.eagle:package:47622081/1" locally_modified="yes" type="model">
+<package3d name="TP20R" urn="urn:adsk.eagle:package:47622081/2" type="model">
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
 <packageinstances>
 <packageinstance name="TP20R"/>
@@ -1780,7 +1780,7 @@ Switches electrical signals</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="ESP32-C6-WROOM-1-N8" urn="urn:adsk.eagle:component:47622115/2" prefix="U" library_version="51">
+<deviceset name="ESP32-C6-WROOM-1-N8" urn="urn:adsk.eagle:component:47622115/2" prefix="U" library_version="54">
 <description> &lt;a href="https://pricing.snapeda.com/parts/ESP32-C6-WROOM-1-N8/Espressif%20Systems/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="ESP32-C6-WROOM-1-N8" x="0" y="0"/>
@@ -1834,7 +1834,7 @@ Switches electrical signals</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="3V3-CIRCLE" urn="urn:adsk.eagle:component:47622113/1" prefix="SUPPLY" uservalue="yes" library_version="51">
+<deviceset name="3V3-CIRCLE" urn="urn:adsk.eagle:component:47622113/1" prefix="SUPPLY" uservalue="yes" library_version="54">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;  3.3 Volt (3V3) Circle</description>
 <gates>
 <gate name="G$1" symbol="3V3-CIRCLE" x="0" y="0"/>
@@ -1850,7 +1850,7 @@ Switches electrical signals</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32_WROVER_EAGLE-LTSPICE_R" urn="urn:adsk.eagle:component:47622133/2" prefix="R" uservalue="yes" library_version="51">
+<deviceset name="ESP32_WROVER_EAGLE-LTSPICE_R" urn="urn:adsk.eagle:component:47622133/2" prefix="R" uservalue="yes" library_version="54">
 <description>&lt;B&gt;RESISTOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="ESP32_WROVER_EAGLE-LTSPICE_R" x="0" y="0"/>
@@ -1873,7 +1873,7 @@ Switches electrical signals</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="GND-BAR" urn="urn:adsk.eagle:component:47622114/1" prefix="SUPPLY" uservalue="yes" library_version="51">
+<deviceset name="GND-BAR" urn="urn:adsk.eagle:component:47622114/1" prefix="SUPPLY" uservalue="yes" library_version="54">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt; - Ground (GND) Bar</description>
 <gates>
 <gate name="G$1" symbol="GND-BAR" x="0" y="0"/>
@@ -1889,7 +1889,7 @@ Switches electrical signals</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="112A-TAAR-R03_ATTEND" urn="urn:adsk.eagle:component:47622111/2" prefix="J" library_version="51">
+<deviceset name="112A-TAAR-R03_ATTEND" urn="urn:adsk.eagle:component:47622111/3" prefix="J" library_version="2">
 <description>&lt;b&gt;Micro SD Card Socket, Push-Push Type, Top Mount, SMT, H=1.83mm, 10u&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.attend.com.tw/data/download/file/112A-TAAR-R03.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -1914,7 +1914,7 @@ Source: &lt;a href="https://www.attend.com.tw/data/download/file/112A-TAAR-R03.p
 <connect gate="G$1" pin="VSS" pad="P6"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:47622084/2"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47842889/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1931,9 +1931,17 @@ Source: &lt;a href="https://www.attend.com.tw/data/download/file/112A-TAAR-R03.p
 </technology>
 </technologies>
 </device>
+<device name="112ATAARR03ATTEND" package="112ATAARR03ATTEND">
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47842889/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
 </devices>
 </deviceset>
-<deviceset name="GND" urn="urn:adsk.eagle:component:47622109/1" prefix="GND" library_version="51">
+<deviceset name="GND" urn="urn:adsk.eagle:component:47622109/1" prefix="GND" library_version="54">
 <description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="GND" x="0" y="0"/>
@@ -1946,7 +1954,7 @@ Source: &lt;a href="https://www.attend.com.tw/data/download/file/112A-TAAR-R03.p
 </device>
 </devices>
 </deviceset>
-<deviceset name="EAGLE-LTSPICE_C" urn="urn:adsk.eagle:component:47622110/2" prefix="C" uservalue="yes" library_version="51">
+<deviceset name="EAGLE-LTSPICE_C" urn="urn:adsk.eagle:component:47622110/2" prefix="C" uservalue="yes" library_version="54">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="EAGLE-LTSPICE_C" x="0" y="0"/>
@@ -1969,7 +1977,7 @@ Source: &lt;a href="https://www.attend.com.tw/data/download/file/112A-TAAR-R03.p
 </device>
 </devices>
 </deviceset>
-<deviceset name="XC6220A331MR-G" urn="urn:adsk.eagle:component:47622122/2" prefix="IC" library_version="51">
+<deviceset name="XC6220A331MR-G" urn="urn:adsk.eagle:component:47622122/2" prefix="IC" library_version="54">
 <description>&lt;b&gt;LDO Voltage Regulators&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.torexsemi.com/file/xc6220/XC6220.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -2002,7 +2010,7 @@ Source: &lt;a href="https://www.torexsemi.com/file/xc6220/XC6220.pdf"&gt; Datash
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32_WROVER_AVX---SD0805S020S1R0_AVX_SD0805S020S1R0_0_0" urn="urn:adsk.eagle:component:47622131/2" prefix="D" library_version="51">
+<deviceset name="ESP32_WROVER_AVX---SD0805S020S1R0_AVX_SD0805S020S1R0_0_0" urn="urn:adsk.eagle:component:47622131/2" prefix="D" library_version="54">
 <description>Schottky Barrier Rectifier Diode</description>
 <gates>
 <gate name="G$0" symbol="ESP32_WROVER_AVX---SD0805S020S1R0_AVX_SD0805S020S1R0_0_0" x="0" y="0"/>
@@ -2036,7 +2044,7 @@ Source: &lt;a href="https://www.torexsemi.com/file/xc6220/XC6220.pdf"&gt; Datash
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32_WROVER_SPARKFUN-DISCRETESEMI_MOSFET_PCH" urn="urn:adsk.eagle:component:47622132/2" prefix="Q" library_version="51">
+<deviceset name="ESP32_WROVER_SPARKFUN-DISCRETESEMI_MOSFET_PCH" urn="urn:adsk.eagle:component:47622132/2" prefix="Q" library_version="54">
 <description>&lt;h3&gt;P-channel MOSFETs&lt;/h3&gt;
 &lt;p&gt;Voltage controlled devices that allow control of high current outputs.&lt;/p&gt;
 &lt;p&gt;&lt;b&gt;SparkFun Products:&lt;/b&gt;
@@ -2066,7 +2074,7 @@ Source: &lt;a href="https://www.torexsemi.com/file/xc6220/XC6220.pdf"&gt; Datash
 </device>
 </devices>
 </deviceset>
-<deviceset name="RCL_CPOL-EU" urn="urn:adsk.eagle:component:47622134/2" prefix="C" uservalue="yes" library_version="51">
+<deviceset name="RCL_CPOL-EU" urn="urn:adsk.eagle:component:47622134/2" prefix="C" uservalue="yes" library_version="54">
 <description>&lt;B&gt;POLARIZED CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="RCL_CPOL" x="0" y="0"/>
@@ -2089,7 +2097,7 @@ Source: &lt;a href="https://www.torexsemi.com/file/xc6220/XC6220.pdf"&gt; Datash
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32_WROVER_SPARKFUN-IC-POWER_MCP73831" urn="urn:adsk.eagle:component:47622128/3" prefix="U" library_version="51">
+<deviceset name="ESP32_WROVER_SPARKFUN-IC-POWER_MCP73831" urn="urn:adsk.eagle:component:47622128/3" prefix="U" library_version="54">
 <description>&lt;h3&gt;MCP73831T Li-Ion, Li-Pol Controller&lt;/h3&gt;
 &lt;p&gt;Miniature single cell, fully integrated Li-Ion, Li-polymer charge management controller
 &lt;li&gt;&lt;a href=”http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf”&gt;Datasheet&lt;/a&gt;&lt;/li&gt;&lt;/p&gt;
@@ -2120,7 +2128,7 @@ Source: &lt;a href="https://www.torexsemi.com/file/xc6220/XC6220.pdf"&gt; Datash
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32_WROVER_EAGLE-LTSPICE_C" urn="urn:adsk.eagle:component:47622136/2" prefix="C" uservalue="yes" library_version="51">
+<deviceset name="ESP32_WROVER_EAGLE-LTSPICE_C" urn="urn:adsk.eagle:component:47622136/2" prefix="C" uservalue="yes" library_version="54">
 <description>&lt;B&gt;CAPACITOR&lt;/B&gt;, European symbol</description>
 <gates>
 <gate name="G$1" symbol="ESP32_WROVER_EAGLE-LTSPICE_C" x="0" y="0"/>
@@ -2143,7 +2151,7 @@ Source: &lt;a href="https://www.torexsemi.com/file/xc6220/XC6220.pdf"&gt; Datash
 </device>
 </devices>
 </deviceset>
-<deviceset name="ADAFRUIT_LED" urn="urn:adsk.eagle:component:47622129/2" prefix="LED" uservalue="yes" library_version="51">
+<deviceset name="ADAFRUIT_LED" urn="urn:adsk.eagle:component:47622129/2" prefix="LED" uservalue="yes" library_version="54">
 <description>&lt;b&gt;LED&lt;/b&gt;&lt;p&gt;
 &lt;u&gt;OSRAM&lt;/u&gt;:&lt;br&gt;
 
@@ -2222,7 +2230,7 @@ Source: http://www.osram.convergy.de/</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="USBLC6-2SC6Y" urn="urn:adsk.eagle:component:47622125/2" prefix="D" library_version="51">
+<deviceset name="USBLC6-2SC6Y" urn="urn:adsk.eagle:component:47622125/2" prefix="D" library_version="54">
 <description>&lt;b&gt;Low Cap. ESD Protection Auto SOT-23-6 STMicroelectronics USBLC6-2SC6Y, Dual Uni-Directional TVS Diode Array, 6-Pin SOT-23&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.pdf"&gt; Datasheet &lt;/a&gt;  &lt;a href="https://pricing.snapeda.com/parts/USBLC6-2SC6Y/STMicroelectronics/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
@@ -2256,7 +2264,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/USBLC6-2SC6Y.
 </device>
 </devices>
 </deviceset>
-<deviceset name="SAMACSYS_PARTS_USB4110-GF-A" urn="urn:adsk.eagle:component:47622135/2" prefix="J" library_version="51">
+<deviceset name="SAMACSYS_PARTS_USB4110-GF-A" urn="urn:adsk.eagle:component:47622135/2" prefix="J" library_version="54">
 <description>&lt;b&gt;CONN USB 2.0 TYPE-C R/A SMT&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://gct.co/files/drawings/usb4110.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -2304,7 +2312,7 @@ Source: &lt;a href="https://gct.co/files/drawings/usb4110.pdf"&gt; Datasheet &lt
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32C6_VARISTOR" urn="urn:adsk.eagle:component:47622137/2" prefix="R" library_version="51">
+<deviceset name="ESP32C6_VARISTOR" urn="urn:adsk.eagle:component:47622137/2" prefix="R" library_version="54">
 <description>&lt;b&gt;VARISTOR&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="ESP32_WROVER_VARISTOR_VARISTOR" x="0" y="0"/>
@@ -2326,7 +2334,7 @@ Source: &lt;a href="https://gct.co/files/drawings/usb4110.pdf"&gt; Datasheet &lt
 </device>
 </devices>
 </deviceset>
-<deviceset name="SJ" urn="urn:adsk.eagle:component:47622139/3" prefix="SJ" uservalue="yes" library_version="51">
+<deviceset name="SJ" urn="urn:adsk.eagle:component:47622139/3" prefix="SJ" uservalue="yes" library_version="54">
 <description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
 <gates>
 <gate name="1" symbol="SJ" x="0" y="0"/>
@@ -2348,7 +2356,7 @@ Source: &lt;a href="https://gct.co/files/drawings/usb4110.pdf"&gt; Datasheet &lt
 </device>
 </devices>
 </deviceset>
-<deviceset name="MBR0530" urn="urn:adsk.eagle:component:47622121/2" prefix="D" library_version="51">
+<deviceset name="MBR0530" urn="urn:adsk.eagle:component:47622121/2" prefix="D" library_version="54">
 <description>&lt;b&gt;ON SEMICONDUCTOR - MBR0530 - DIODE, SCHOTTKY, 0.5A, 30V, SOD-123&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MBR0530T1-D.PDF"&gt; Datasheet &lt;/a&gt;  &lt;a href="https://pricing.snapeda.com/parts/MBR0530/ON%20Semiconductor/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
@@ -2379,7 +2387,7 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MBR0530T1-D.PDF"&gt; Da
 </device>
 </devices>
 </deviceset>
-<deviceset name="744043680" urn="urn:adsk.eagle:component:47622138/3" prefix="L" library_version="51">
+<deviceset name="744043680" urn="urn:adsk.eagle:component:47622138/3" prefix="L" library_version="54">
 <gates>
 <gate name="A" symbol="IND" x="0" y="0" swaplevel="1"/>
 </gates>
@@ -2402,7 +2410,7 @@ Source: &lt;a href="http://www.onsemi.com/pub/Collateral/MBR0530T1-D.PDF"&gt; Da
 </device>
 </devices>
 </deviceset>
-<deviceset name="SI1308EDL-T1-GE3" urn="urn:adsk.eagle:component:47622120/2" prefix="Q" library_version="51">
+<deviceset name="SI1308EDL-T1-GE3" urn="urn:adsk.eagle:component:47622120/2" prefix="Q" library_version="54">
 <description>&lt;b&gt;MOSFET N-Ch 30V 1.5A TrenchFET SC70 Vishay Si1308EDL-T1-GE3 N-channel MOSFET Transistor, 1.5 A, 30 V, 3-Pin SC-70&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-GE3.pdf"&gt; Datasheet &lt;/a&gt;  &lt;a href="https://pricing.snapeda.com/parts/SI1308EDL-T1-GE3/Vishay%20Siliconix/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
@@ -2434,7 +2442,7 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/1/SI1308EDL-T1-
 </device>
 </devices>
 </deviceset>
-<deviceset name="FH34SRJ-24S-0.5SH_99_" urn="urn:adsk.eagle:component:47622141/2" prefix="J" library_version="51">
+<deviceset name="FH34SRJ-24S-0.5SH_99_" urn="urn:adsk.eagle:component:47622141/2" prefix="J" library_version="54">
 <description>&lt;b&gt;24 Position FFC, FPC Connector Contacts, Top and Bottom 0.020" (0.50mm) Surface Mount, Right Angle&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-1255-6-99&amp;productname=FH34SRJ-24S-0.5SH(99)&amp;series=FH34SRJ&amp;documenttype=2DDrawing&amp;lang=en&amp;documentid=0000990903"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -2488,7 +2496,7 @@ Source: &lt;a href="https://www.hirose.com/en/product/document?clcode=CL0580-125
 </device>
 </devices>
 </deviceset>
-<deviceset name="BD5229G-TR" urn="urn:adsk.eagle:component:47622126/2" prefix="IC" library_version="51">
+<deviceset name="BD5229G-TR" urn="urn:adsk.eagle:component:47622126/2" prefix="IC" library_version="54">
 <description>&lt;b&gt;Voltage Detector with Adjustable Delay Time: CMOS processes are utilized to develop high precision, low current consumption CMOS reset ICs that allow arbitrary setting of the delay time. The extensive lineup includes both Nch Open Drain and CMOS output types in a wide range of detection voltages (from 2.3V to 6.0V, in 0.1V steps), enabling selection of the ideal solution based on customer requirements. In addition, the entire series is of course both lead-free and RoHS-compliant.&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/f2b9741ef86007909f138d561a359946.pdf"&gt; Datasheet &lt;/a&gt;</description>
 <gates>
@@ -2521,7 +2529,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="BUTTON_CUSYOMV1" urn="urn:adsk.eagle:component:47622112/3" library_version="51">
+<deviceset name="BUTTON_CUSYOMV1" urn="urn:adsk.eagle:component:47622112/3" library_version="54">
 <gates>
 <gate name="G$1" symbol="MYBUTTON" x="0" y="0"/>
 </gates>
@@ -2542,7 +2550,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX17048G+T10" urn="urn:adsk.eagle:component:47622116/2" prefix="U" library_version="51">
+<deviceset name="MAX17048G+T10" urn="urn:adsk.eagle:component:47622116/2" prefix="U" library_version="54">
 <description> &lt;a href="https://pricing.snapeda.com/parts/MAX17048G%2BT10/Analog%20Devices/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="MAX17048G+T10" x="0" y="0"/>
@@ -2579,7 +2587,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="W25Q512JVEIQ" urn="urn:adsk.eagle:component:47622124/2" prefix="U" library_version="51">
+<deviceset name="W25Q512JVEIQ" urn="urn:adsk.eagle:component:47622124/2" prefix="U" library_version="54">
 <description> &lt;a href="https://pricing.snapeda.com/parts/W25Q512JVEIQ/Winbond%20Electronics/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="W25Q512JVEIQ" x="0" y="0"/>
@@ -2615,7 +2623,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32_WROVER_BME680_BME680" urn="urn:adsk.eagle:component:47622127/2" prefix="U" library_version="51">
+<deviceset name="ESP32_WROVER_BME680_BME680" urn="urn:adsk.eagle:component:47622127/2" prefix="U" library_version="54">
 <description>Integrated Environmental Unit</description>
 <gates>
 <gate name="G$1" symbol="ESP32_WROVER_BME680_BME680" x="0" y="0"/>
@@ -2647,7 +2655,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="DS3231SN#" urn="urn:adsk.eagle:component:47622119/2" prefix="U" library_version="51">
+<deviceset name="DS3231SN#" urn="urn:adsk.eagle:component:47622119/2" prefix="U" library_version="54">
 <description>Real Time Clock Serial 16-Pin SOIC W T/R     &lt;a href="https://pricing.snapeda.com/parts/DS3231SN%23/Analog%20Devices/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="A" symbol="DS3231SN#" x="0" y="0"/>
@@ -2683,7 +2691,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="PGB1010603MR" urn="urn:adsk.eagle:component:47622123/2" prefix="D" library_version="51">
+<deviceset name="PGB1010603MR" urn="urn:adsk.eagle:component:47622123/2" prefix="D" library_version="54">
 <description> &lt;a href="https://pricing.snapeda.com/parts/PGB1010603MR/Littelfuse%20Inc./view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="PGB1010603MR-1" x="0" y="0"/>
@@ -2713,7 +2721,7 @@ Source: &lt;a href="https://datasheet.datasheetarchive.com/originals/distributor
 </device>
 </devices>
 </deviceset>
-<deviceset name="QWIIC_CONNECTOR" urn="urn:adsk.eagle:component:47622117/2" prefix="J" uservalue="yes" library_version="51">
+<deviceset name="QWIIC_CONNECTOR" urn="urn:adsk.eagle:component:47622117/2" prefix="J" uservalue="yes" library_version="54">
 <description>&lt;h3&gt;SparkFun I&lt;sup&gt;2&lt;/sup&gt;C Standard Qwiic Connector&lt;/h3&gt;
 An SMD 1mm pitch JST connector makes it easy and quick (get it? Qwiic?) to connect I&lt;sup&gt;2&lt;/sup&gt;C devices to each other. The &lt;a href=”http://www.sparkfun.com/qwiic”&gt;Qwiic system&lt;/a&gt; enables fast and solderless connection between popular platforms and various sensors and actuators.
 
@@ -2743,7 +2751,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </device>
 </devices>
 </deviceset>
-<deviceset name="CPH3225A" urn="urn:adsk.eagle:component:47622118/2" prefix="C" library_version="51">
+<deviceset name="CPH3225A" urn="urn:adsk.eagle:component:47622118/2" prefix="C" library_version="54">
 <description>Cap 0.011F 3.3V 1210 Flat &lt;a href="https://pricing.snapeda.com/parts/CPH3225A/Seiko%20Instruments/view-part?ref=eda"&gt;Check availability&lt;/a&gt;</description>
 <gates>
 <gate name="G$1" symbol="CPH3225A" x="0" y="0"/>
@@ -2773,7 +2781,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </device>
 </devices>
 </deviceset>
-<deviceset name="TP" urn="urn:adsk.eagle:component:47622140/1" prefix="TP" library_version="51">
+<deviceset name="TP" urn="urn:adsk.eagle:component:47622140/2" prefix="TP" library_version="2">
 <description>&lt;b&gt;Test pad&lt;/b&gt;</description>
 <gates>
 <gate name="G$1" symbol="TP" x="0" y="0"/>
@@ -2784,7 +2792,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 <connect gate="G$1" pin="TP" pad="TP"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:47622081/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:47622081/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -2795,7 +2803,7 @@ We carry &lt;a href=”https://www.sparkfun.com/products/14204”&gt;200mm&lt;/a
 </device>
 </devices>
 </deviceset>
-<deviceset name="ESP32_WROVER_FRAMES_A3L-LOC" urn="urn:adsk.eagle:component:47622130/1" prefix="FRAME" uservalue="yes" library_version="51">
+<deviceset name="ESP32_WROVER_FRAMES_A3L-LOC" urn="urn:adsk.eagle:component:47622130/1" prefix="FRAME" uservalue="yes" library_version="54">
 <description>&lt;b&gt;FRAME&lt;/b&gt;&lt;p&gt;
 DIN A3, landscape with location and doc. field</description>
 <gates>
@@ -2828,7 +2836,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="SUPPLY2" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="3V3-CIRCLE" device="" value="3V3"/>
 <part name="R1" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="ESP32_WROVER_EAGLE-LTSPICE_R" device="R0402" package3d_urn="urn:adsk.eagle:package:47622103/2" value="10k"/>
 <part name="SUPPLY3" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="GND-BAR" device="" value="GND"/>
-<part name="J1" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="112A-TAAR-R03_ATTEND" device="" package3d_urn="urn:adsk.eagle:package:47622084/2"/>
+<part name="J1" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="112A-TAAR-R03_ATTEND" device="" package3d_urn="urn:adsk.eagle:package:47842889/1"/>
 <part name="GND1" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="3V3-CIRCLE" device="" value="3V3"/>
 <part name="GND2" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="GND" device=""/>
@@ -2884,7 +2892,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="SUPPLY24" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="GND-BAR" device="" value="GND"/>
 <part name="R4" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="ESP32_WROVER_EAGLE-LTSPICE_R" device="R0402" package3d_urn="urn:adsk.eagle:package:47622103/2" value="10k"/>
 <part name="R3" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="ESP32_WROVER_EAGLE-LTSPICE_R" device="R0402" package3d_urn="urn:adsk.eagle:package:47622103/2" value="0.47"/>
-<part name="J3" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="FH34SRJ-24S-0.5SH_99_" device="" package3d_urn="urn:adsk.eagle:package:47622108/2"/>
+<part name="J4" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="FH34SRJ-24S-0.5SH_99_" device="" package3d_urn="urn:adsk.eagle:package:47622108/2"/>
 <part name="SUPPLY25" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY26" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY27" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="GND-BAR" device="" value="GND"/>
@@ -2955,7 +2963,7 @@ DIN A3, landscape with location and doc. field</description>
 <part name="D11" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="PGB1010603MR" device="" package3d_urn="urn:adsk.eagle:package:47622094/2"/>
 <part name="D12" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="PGB1010603MR" device="" package3d_urn="urn:adsk.eagle:package:47622094/2"/>
 <part name="SUPPLY51" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="GND-BAR" device="" value="GND"/>
-<part name="J4" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:47664988/1" value="QWIIC_RIGHT_ANGLE"/>
+<part name="J3" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="QWIIC_CONNECTOR" device="JS-1MM" package3d_urn="urn:adsk.eagle:package:47664988/1" value="QWIIC_RIGHT_ANGLE"/>
 <part name="SUPPLY52" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="GND-BAR" device="" value="GND"/>
 <part name="SUPPLY53" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="3V3-CIRCLE" device="" value="3V3"/>
 <part name="SUPPLY54" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="3V3-CIRCLE" device="" value="3V3"/>
@@ -2969,28 +2977,78 @@ DIN A3, landscape with location and doc. field</description>
 <part name="SUPPLY58" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="3V3-CIRCLE" device="" value="3V3"/>
 <part name="R2-PINH1" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="ESP32_WROVER_EAGLE-LTSPICE_R" device="R0402" package3d_urn="urn:adsk.eagle:package:47622103/2" value="10K"/>
 <part name="R1-PINH1" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="ESP32_WROVER_EAGLE-LTSPICE_R" device="R0402" package3d_urn="urn:adsk.eagle:package:47622103/2" value="10K"/>
-<part name="TP1" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/1"/>
-<part name="TP2" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/1"/>
-<part name="TP3" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/1"/>
-<part name="TP4" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/1"/>
-<part name="TP5" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/1"/>
-<part name="TP6" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/1"/>
-<part name="TP7" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/1"/>
-<part name="TP8" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/1"/>
-<part name="TP9" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/1"/>
-<part name="TP10" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/1"/>
-<part name="TP11" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/1"/>
-<part name="TP12" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/1"/>
-<part name="TP13" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/1"/>
-<part name="TP14" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/1"/>
-<part name="TP15" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/1"/>
-<part name="TP16" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/1"/>
-<part name="TP17" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/1"/>
+<part name="TP1" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/2"/>
+<part name="TP2" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/2"/>
+<part name="TP3" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/2"/>
+<part name="TP4" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/2"/>
+<part name="TP5" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/2"/>
+<part name="TP6" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/2"/>
+<part name="TP7" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/2"/>
+<part name="TP8" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/2"/>
+<part name="TP9" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/2"/>
+<part name="TP10" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/2"/>
+<part name="TP11" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/2"/>
+<part name="TP12" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/2"/>
+<part name="TP13" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/2"/>
+<part name="TP14" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/2"/>
+<part name="TP15" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/2"/>
+<part name="TP16" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/2"/>
+<part name="TP17" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="TP" device="TP20R" package3d_urn="urn:adsk.eagle:package:47622081/2"/>
 <part name="FRAME1" library="DeskAssistant_v19_v1" library_urn="urn:adsk.wipprod:fs.file:vf.VXwzQbzlS82uePxYsCUiBQ" deviceset="ESP32_WROVER_FRAMES_A3L-LOC" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<wire x1="360.68" y1="43.18" x2="360.68" y2="-22.86" width="0.381" layer="97"/>
+<wire x1="360.68" y1="-22.86" x2="256.54" y2="-22.86" width="0.381" layer="97"/>
+<wire x1="256.54" y1="-22.86" x2="213.36" y2="-22.86" width="0.381" layer="97"/>
+<wire x1="594.36" y1="0" x2="502.92" y2="0" width="0.381" layer="97"/>
+<wire x1="502.92" y1="0" x2="502.92" y2="43.18" width="0.381" layer="97"/>
+<wire x1="502.92" y1="0" x2="502.92" y2="-22.86" width="0.381" layer="97"/>
+<wire x1="502.92" y1="-22.86" x2="502.92" y2="-66.04" width="0.381" layer="97"/>
+<wire x1="502.92" y1="-66.04" x2="525.78" y2="-66.04" width="0.381" layer="97"/>
+<wire x1="594.36" y1="-76.2" x2="594.36" y2="-73.66" width="0.381" layer="97"/>
+<wire x1="525.78" y1="-66.04" x2="525.78" y2="-147.32" width="0.381" layer="97"/>
+<wire x1="525.78" y1="-147.32" x2="594.36" y2="-147.32" width="0.381" layer="97"/>
+<wire x1="525.78" y1="-147.32" x2="510.54" y2="-147.32" width="0.381" layer="97"/>
+<wire x1="510.54" y1="-147.32" x2="441.96" y2="-147.32" width="0.381" layer="97"/>
+<wire x1="441.96" y1="-147.32" x2="429.26" y2="-147.32" width="0.381" layer="97"/>
+<wire x1="429.26" y1="-147.32" x2="408.94" y2="-147.32" width="0.381" layer="97"/>
+<wire x1="408.94" y1="-147.32" x2="347.98" y2="-147.32" width="0.381" layer="97"/>
+<wire x1="347.98" y1="-147.32" x2="307.34" y2="-147.32" width="0.381" layer="97"/>
+<wire x1="307.34" y1="-147.32" x2="213.36" y2="-147.32" width="0.381" layer="97"/>
+<wire x1="525.78" y1="-66.04" x2="594.36" y2="-66.04" width="0.381" layer="97"/>
+<wire x1="502.92" y1="-66.04" x2="429.26" y2="-66.04" width="0.381" layer="97"/>
+<wire x1="429.26" y1="-66.04" x2="375.92" y2="-66.04" width="0.381" layer="97"/>
+<wire x1="375.92" y1="-66.04" x2="307.34" y2="-66.04" width="0.381" layer="97"/>
+<wire x1="307.34" y1="-66.04" x2="256.54" y2="-66.04" width="0.381" layer="97"/>
+<wire x1="256.54" y1="-66.04" x2="213.36" y2="-66.04" width="0.381" layer="97"/>
+<wire x1="360.68" y1="-22.86" x2="375.92" y2="-22.86" width="0.381" layer="97"/>
+<wire x1="375.92" y1="-22.86" x2="502.92" y2="-22.86" width="0.381" layer="97"/>
+<wire x1="375.92" y1="-22.86" x2="375.92" y2="-66.04" width="0.381" layer="97"/>
+<wire x1="256.54" y1="-22.86" x2="256.54" y2="-66.04" width="0.381" layer="97"/>
+<wire x1="307.34" y1="-66.04" x2="307.34" y2="-147.32" width="0.381" layer="97"/>
+<wire x1="429.26" y1="-66.04" x2="429.26" y2="-147.32" width="0.381" layer="97"/>
+<wire x1="510.54" y1="-147.32" x2="510.54" y2="-190.5" width="0.381" layer="97"/>
+<wire x1="441.96" y1="-147.32" x2="441.96" y2="-210.82" width="0.381" layer="97"/>
+<wire x1="408.94" y1="-147.32" x2="408.94" y2="-210.82" width="0.381" layer="97"/>
+<wire x1="347.98" y1="-147.32" x2="347.98" y2="-210.82" width="0.381" layer="97"/>
+<text x="505.46" y="33.02" size="5.08" layer="97">SD Card</text>
+<text x="508" y="-7.62" size="5.08" layer="97">ESP32 C6</text>
+<text x="419.1" y="33.02" size="5.08" layer="97">LDO Voltage Regulator</text>
+<text x="378.46" y="-27.94" size="2.54" layer="97">Li-Po Battery Charging Controller</text>
+<text x="261.62" y="-27.94" size="2.54" layer="97">E-Paper Drive Circuit</text>
+<text x="312.42" y="-76.2" size="5.08" layer="97">EPD Power</text>
+<text x="223.52" y="35.56" size="2.54" layer="97">USB C connector &amp; ESD protection</text>
+<text x="220.98" y="-27.94" size="2.54" layer="97">Display Type Selector</text>
+<text x="215.9" y="-71.12" size="2.54" layer="97">E-Paper Display Header</text>
+<text x="436.88" y="-73.66" size="2.54" layer="97">Voltage Supervison Charging Controller</text>
+<text x="533.4" y="-73.66" size="2.54" layer="97">Battery Charge Level</text>
+<text x="543.56" y="-152.4" size="2.54" layer="97">External NOR Flash 64MB</text>
+<text x="419.1" y="-157.48" size="2.54" layer="97">QWIIC/
+Stemma QT</text>
+<text x="353.06" y="-152.4" size="2.54" layer="97">Test Pads</text>
+<text x="223.52" y="-154.94" size="2.54" layer="97">RTC Module DS3231SN</text>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="548.64" y="-35.56" smashed="yes">
@@ -3227,7 +3285,7 @@ DIN A3, landscape with location and doc. field</description>
 <attribute name="NAME" x="356.6414" y="-59.69" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="361.442" y="-59.69" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="J3" gate="G$1" x="297.18" y="-83.82" smashed="yes" rot="MR0">
+<instance part="J4" gate="G$1" x="297.18" y="-83.82" smashed="yes" rot="MR0">
 <attribute name="NAME" x="275.59" y="-76.2" size="1.778" layer="95" rot="MR0" align="center-left"/>
 <attribute name="VALUE" x="293.37" y="-116.84" size="1.778" layer="96" rot="MR270" align="center-left"/>
 </instance>
@@ -3508,7 +3566,7 @@ DIN A3, landscape with location and doc. field</description>
 <instance part="SUPPLY51" gate="G$1" x="447.04" y="-203.2" smashed="yes" rot="R270">
 <attribute name="VALUE" x="445.135" y="-203.2" size="1.778" layer="96" rot="R270" align="center"/>
 </instance>
-<instance part="J4" gate="J1" x="434.34" y="-182.88" smashed="yes" rot="R180">
+<instance part="J3" gate="J1" x="434.34" y="-182.88" smashed="yes" rot="R180">
 <attribute name="VALUE" x="439.42" y="-177.546" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 <attribute name="NAME" x="439.42" y="-190.754" size="1.778" layer="95" font="vector" rot="R180"/>
 </instance>
@@ -3652,8 +3710,8 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="566.42" y1="22.86" x2="571.5" y2="22.86" width="0.1524" layer="91"/>
 <wire x1="571.5" y1="22.86" x2="574.04" y2="22.86" width="0.1524" layer="91"/>
 <junction x="571.5" y="22.86"/>
-<pinref part="J1" gate="G$1" pin="VDD"/>
 <pinref part="C9" gate="G$1" pin="1"/>
+<pinref part="J1" gate="G$1" pin="VDD"/>
 </segment>
 <segment>
 <wire x1="472.44" y1="5.08" x2="477.52" y2="5.08" width="0.1524" layer="91"/>
@@ -3721,7 +3779,7 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="426.72" y1="-182.88" x2="416.56" y2="-182.88" width="0.1524" layer="91"/>
 <wire x1="416.56" y1="-182.88" x2="416.56" y2="-177.8" width="0.1524" layer="91"/>
 <pinref part="SUPPLY53" gate="G$1" pin="3V3"/>
-<pinref part="J4" gate="J1" pin="2"/>
+<pinref part="J3" gate="J1" pin="2"/>
 </segment>
 <segment>
 <wire x1="261.62" y1="-177.8" x2="266.7" y2="-177.8" width="0.1524" layer="91"/>
@@ -3881,7 +3939,7 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <wire x1="271.78" y1="-121.92" x2="266.7" y2="-121.92" width="0.1524" layer="91"/>
 <label x="266.7" y="-121.92" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="9"/>
+<pinref part="J4" gate="G$1" pin="9"/>
 </segment>
 <segment>
 <wire x1="388.62" y1="-182.88" x2="388.62" y2="-177.8" width="0.1524" layer="91"/>
@@ -3910,13 +3968,6 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="D8" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="EPD_SC" class="0">
-<segment>
-<wire x1="528.32" y1="-38.1" x2="520.7" y2="-38.1" width="0.1524" layer="91"/>
-<label x="520.7" y="-38.1" size="0.8128" layer="95" font="custom" ratio="16" rot="R180" xref="yes"/>
-<pinref part="U2" gate="G$1" pin="IO5"/>
-</segment>
-</net>
 <net name="SCK" class="0">
 <segment>
 <wire x1="528.32" y1="-40.64" x2="523.24" y2="-40.64" width="0.1524" layer="91"/>
@@ -3931,7 +3982,7 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <wire x1="271.78" y1="-111.76" x2="266.7" y2="-111.76" width="0.1524" layer="91"/>
 <label x="266.7" y="-111.76" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="13"/>
+<pinref part="J4" gate="G$1" pin="13"/>
 </segment>
 <segment>
 <wire x1="528.32" y1="-165.1" x2="525.78" y2="-165.1" width="0.1524" layer="91"/>
@@ -3967,7 +4018,7 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <wire x1="271.78" y1="-109.22" x2="266.7" y2="-109.22" width="0.1524" layer="91"/>
 <label x="266.7" y="-109.22" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="14"/>
+<pinref part="J4" gate="G$1" pin="14"/>
 </segment>
 <segment>
 <wire x1="574.04" y1="-165.1" x2="576.58" y2="-165.1" width="0.1524" layer="91"/>
@@ -4053,8 +4104,8 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="GND2" gate="1" pin="GND"/>
 <wire x1="566.42" y1="17.78" x2="584.2" y2="17.78" width="0.1524" layer="91"/>
 <junction x="584.2" y="17.78"/>
-<pinref part="J1" gate="G$1" pin="VSS"/>
 <pinref part="C9" gate="G$1" pin="2"/>
+<pinref part="J1" gate="G$1" pin="VSS"/>
 </segment>
 <segment>
 <wire x1="477.52" y1="-7.62" x2="477.52" y2="-12.7" width="0.1524" layer="91"/>
@@ -4201,14 +4252,14 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="302.26" y1="-86.36" x2="302.26" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="297.18" y1="-86.36" x2="302.26" y2="-86.36" width="0.1524" layer="91"/>
 <junction x="302.26" y="-86.36"/>
-<pinref part="J3" gate="G$1" pin="MP1"/>
-<pinref part="J3" gate="G$1" pin="MP2"/>
+<pinref part="J4" gate="G$1" pin="MP1"/>
+<pinref part="J4" gate="G$1" pin="MP2"/>
 </segment>
 <segment>
 <pinref part="SUPPLY27" gate="G$1" pin="GND"/>
 <wire x1="220.98" y1="-101.6" x2="220.98" y2="-78.74" width="0.1524" layer="91"/>
 <wire x1="271.78" y1="-101.6" x2="220.98" y2="-101.6" width="0.1524" layer="91"/>
-<pinref part="J3" gate="G$1" pin="17"/>
+<pinref part="J4" gate="G$1" pin="17"/>
 </segment>
 <segment>
 <wire x1="355.6" y1="-111.76" x2="353.06" y2="-111.76" width="0.1524" layer="91"/>
@@ -4336,7 +4387,7 @@ DIN A3, landscape with location and doc. field</description>
 </segment>
 <segment>
 <pinref part="SUPPLY52" gate="G$1" pin="GND"/>
-<pinref part="J4" gate="J1" pin="1"/>
+<pinref part="J3" gate="J1" pin="1"/>
 </segment>
 <segment>
 <wire x1="261.62" y1="-193.04" x2="266.7" y2="-193.04" width="0.1524" layer="91"/>
@@ -4383,7 +4434,7 @@ DIN A3, landscape with location and doc. field</description>
 <junction x="236.22" y="-134.62"/>
 <pinref part="EPD_C1" gate="G$1" pin="2"/>
 <pinref part="EPD_C2" gate="G$1" pin="2"/>
-<pinref part="J3" gate="G$1" pin="8"/>
+<pinref part="J4" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <pinref part="SUPPLY26" gate="G$1" pin="GND"/>
@@ -4429,7 +4480,7 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <wire x1="271.78" y1="-114.3" x2="266.7" y2="-114.3" width="0.1524" layer="91"/>
 <label x="266.7" y="-114.3" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="12"/>
+<pinref part="J4" gate="G$1" pin="12"/>
 </segment>
 <segment>
 <wire x1="482.6" y1="-172.72" x2="482.6" y2="-182.88" width="0.1524" layer="91"/>
@@ -4453,8 +4504,8 @@ DIN A3, landscape with location and doc. field</description>
 <pinref part="U2" gate="G$1" pin="IO11"/>
 </segment>
 <segment>
-<wire x1="528.32" y1="-162.56" x2="525.78" y2="-162.56" width="0.1524" layer="91"/>
-<label x="525.78" y="-162.56" size="1.016" layer="95" rot="R180" xref="yes"/>
+<wire x1="528.32" y1="-162.56" x2="520.7" y2="-162.56" width="0.1524" layer="91"/>
+<label x="520.7" y="-162.56" size="1.016" layer="95" rot="R180" xref="yes"/>
 <pinref part="U1" gate="G$1" pin="!CS"/>
 </segment>
 <segment>
@@ -4566,13 +4617,13 @@ DIN A3, landscape with location and doc. field</description>
 <wire x1="355.6" y1="-104.14" x2="355.6" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="355.6" y1="-86.36" x2="391.16" y2="-86.36" width="0.1524" layer="91"/>
 <wire x1="391.16" y1="-86.36" x2="391.16" y2="-96.52" width="0.1524" layer="91"/>
-<junction x="391.16" y="-96.52"/>
 <wire x1="386.08" y1="-99.06" x2="391.16" y2="-99.06" width="0.1524" layer="91"/>
 <wire x1="391.16" y1="-99.06" x2="391.16" y2="-96.52" width="0.1524" layer="91"/>
 <label x="396.24" y="-93.98" size="1.6764" layer="95" rot="R90" xref="yes"/>
 <pinref part="SENSOR2" gate="G$1" pin="CSB"/>
 <pinref part="SENSOR2" gate="G$1" pin="VDD"/>
 <pinref part="SENSOR2" gate="G$1" pin="VDDIO"/>
+<junction x="391.16" y="-96.52"/>
 </segment>
 <segment>
 <wire x1="403.86" y1="-93.98" x2="403.86" y2="-86.36" width="0.1524" layer="91"/>
@@ -4642,7 +4693,7 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <wire x1="426.72" y1="-185.42" x2="424.18" y2="-185.42" width="0.1524" layer="91"/>
 <label x="424.18" y="-185.42" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="J4" gate="J1" pin="3"/>
+<pinref part="J3" gate="J1" pin="3"/>
 </segment>
 <segment>
 <wire x1="231.14" y1="-187.96" x2="226.06" y2="-187.96" width="0.1524" layer="91"/>
@@ -4674,7 +4725,7 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <wire x1="426.72" y1="-187.96" x2="424.18" y2="-187.96" width="0.1524" layer="91"/>
 <label x="424.18" y="-187.96" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="J4" gate="J1" pin="4"/>
+<pinref part="J3" gate="J1" pin="4"/>
 </segment>
 <segment>
 <wire x1="231.14" y1="-185.42" x2="226.06" y2="-185.42" width="0.1524" layer="91"/>
@@ -4691,7 +4742,7 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <wire x1="271.78" y1="-119.38" x2="266.7" y2="-119.38" width="0.1524" layer="91"/>
 <label x="266.7" y="-119.38" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="10"/>
+<pinref part="J4" gate="G$1" pin="10"/>
 </segment>
 <segment>
 <wire x1="368.3" y1="-203.2" x2="368.3" y2="-198.12" width="0.1524" layer="91"/>
@@ -4925,8 +4976,8 @@ DIN A3, landscape with location and doc. field</description>
 <junction x="269.24" y="-106.68"/>
 <junction x="269.24" y="-104.14"/>
 <pinref part="EPD_C5" gate="G$1" pin="1"/>
-<pinref part="J3" gate="G$1" pin="15"/>
-<pinref part="J3" gate="G$1" pin="16"/>
+<pinref part="J4" gate="G$1" pin="15"/>
+<pinref part="J4" gate="G$1" pin="16"/>
 </segment>
 <segment>
 <wire x1="335.28" y1="-111.76" x2="335.28" y2="-116.84" width="0.1524" layer="91"/>
@@ -4985,7 +5036,7 @@ DIN A3, landscape with location and doc. field</description>
 <label x="266.7" y="-81.28" size="1.778" layer="95" rot="R90" xref="yes"/>
 <junction x="266.7" y="-86.36"/>
 <pinref part="EPD_C11" gate="G$1" pin="1"/>
-<pinref part="J3" gate="G$1" pin="23"/>
+<pinref part="J4" gate="G$1" pin="23"/>
 </segment>
 </net>
 <net name="PREVGH" class="1">
@@ -5001,7 +5052,7 @@ DIN A3, landscape with location and doc. field</description>
 <label x="256.54" y="-81.28" size="1.778" layer="95" rot="R90" xref="yes"/>
 <junction x="256.54" y="-91.44"/>
 <pinref part="EPD_C9" gate="G$1" pin="1"/>
-<pinref part="J3" gate="G$1" pin="21"/>
+<pinref part="J4" gate="G$1" pin="21"/>
 </segment>
 </net>
 <net name="GDR" class="0">
@@ -5017,7 +5068,7 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <wire x1="271.78" y1="-139.7" x2="266.7" y2="-139.7" width="0.1524" layer="91"/>
 <label x="266.7" y="-139.7" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="2"/>
+<pinref part="J4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="RESE" class="0">
@@ -5033,19 +5084,24 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <wire x1="271.78" y1="-137.16" x2="266.7" y2="-137.16" width="0.1524" layer="91"/>
 <label x="266.7" y="-137.16" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="3"/>
+<pinref part="J4" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="EPD_DC" class="0">
 <segment>
 <wire x1="271.78" y1="-116.84" x2="266.7" y2="-116.84" width="0.1524" layer="91"/>
 <label x="266.7" y="-116.84" size="1.016" layer="95" rot="R180" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="11"/>
+<pinref part="J4" gate="G$1" pin="11"/>
 </segment>
 <segment>
 <wire x1="358.14" y1="-203.2" x2="358.14" y2="-198.12" width="0.1524" layer="91"/>
 <label x="358.14" y="-198.12" size="1.016" layer="95" rot="R90" xref="yes"/>
 <pinref part="TP11" gate="G$1" pin="TP"/>
+</segment>
+<segment>
+<wire x1="528.32" y1="-38.1" x2="520.7" y2="-38.1" width="0.1524" layer="91"/>
+<label x="520.7" y="-38.1" size="0.8128" layer="95" font="custom" ratio="16" rot="R180" xref="yes"/>
+<pinref part="U2" gate="G$1" pin="IO5"/>
 </segment>
 </net>
 <net name="N$7" class="0">
@@ -5105,124 +5161,49 @@ DIN A3, landscape with location and doc. field</description>
 <segment>
 <wire x1="271.78" y1="-134.62" x2="248.92" y2="-134.62" width="0.1524" layer="91"/>
 <pinref part="EPD_C1" gate="G$1" pin="1"/>
-<pinref part="J3" gate="G$1" pin="4"/>
+<pinref part="J4" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <wire x1="271.78" y1="-132.08" x2="261.62" y2="-132.08" width="0.1524" layer="91"/>
 <pinref part="EPD_C2" gate="G$1" pin="1"/>
-<pinref part="J3" gate="G$1" pin="5"/>
+<pinref part="J4" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
 <wire x1="271.78" y1="-99.06" x2="261.62" y2="-99.06" width="0.1524" layer="91"/>
 <pinref part="EPD_C6" gate="G$1" pin="1"/>
-<pinref part="J3" gate="G$1" pin="18"/>
+<pinref part="J4" gate="G$1" pin="18"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
 <wire x1="271.78" y1="-96.52" x2="246.38" y2="-96.52" width="0.1524" layer="91"/>
 <pinref part="EPD_C7" gate="G$1" pin="1"/>
-<pinref part="J3" gate="G$1" pin="19"/>
+<pinref part="J4" gate="G$1" pin="19"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <wire x1="271.78" y1="-93.98" x2="261.62" y2="-93.98" width="0.1524" layer="91"/>
 <pinref part="EPD_C8" gate="G$1" pin="1"/>
-<pinref part="J3" gate="G$1" pin="20"/>
+<pinref part="J4" gate="G$1" pin="20"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <wire x1="266.7" y1="-88.9" x2="271.78" y2="-88.9" width="0.1524" layer="91"/>
 <pinref part="EPD_C10" gate="G$1" pin="1"/>
-<pinref part="J3" gate="G$1" pin="22"/>
+<pinref part="J4" gate="G$1" pin="22"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <wire x1="271.78" y1="-83.82" x2="241.3" y2="-83.82" width="0.1524" layer="91"/>
 <pinref part="EPD_C12" gate="G$1" pin="1"/>
-<pinref part="J3" gate="G$1" pin="24"/>
-</segment>
-</net>
-<net name="N$8" class="0">
-<segment>
-<wire x1="215.9" y1="-22.86" x2="502.92" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="502.92" y1="43.18" x2="502.92" y2="-2.54" width="0.1524" layer="91"/>
-<wire x1="502.92" y1="-2.54" x2="502.92" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="502.92" y1="-22.86" x2="502.92" y2="-66.04" width="0.1524" layer="91"/>
-<wire x1="594.36" y1="-2.54" x2="502.92" y2="-2.54" width="0.1524" layer="91"/>
-<junction x="502.92" y="-2.54"/>
-<junction x="502.92" y="-22.86"/>
-</segment>
-</net>
-<net name="N$36" class="0">
-<segment>
-<wire x1="347.98" y1="-208.28" x2="347.98" y2="-147.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$43" class="0">
-<segment>
-<wire x1="441.96" y1="-147.32" x2="441.96" y2="-210.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$46" class="0">
-<segment>
-<wire x1="510.54" y1="-187.96" x2="510.54" y2="-147.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$47" class="0">
-<segment>
-<wire x1="594.36" y1="-147.32" x2="411.48" y2="-147.32" width="0.1524" layer="91"/>
-<wire x1="411.48" y1="-147.32" x2="294.64" y2="-147.32" width="0.1524" layer="91"/>
-<junction x="411.48" y="-147.32"/>
-<wire x1="411.48" y1="-147.32" x2="411.48" y2="-210.82" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$48" class="0">
-<segment>
-<wire x1="304.8" y1="-66.04" x2="304.8" y2="-147.32" width="0.1524" layer="91"/>
-<wire x1="304.8" y1="-147.32" x2="213.36" y2="-147.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$49" class="0">
-<segment>
-<wire x1="345.44" y1="-66.04" x2="345.44" y2="-147.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$50" class="0">
-<segment>
-<wire x1="431.8" y1="-66.04" x2="431.8" y2="-147.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$51" class="0">
-<segment>
-<wire x1="525.78" y1="-147.32" x2="525.78" y2="-66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$52" class="0">
-<segment>
-<wire x1="594.36" y1="-66.04" x2="213.36" y2="-66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$54" class="0">
-<segment>
-<wire x1="373.38" y1="-22.86" x2="373.38" y2="-66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$55" class="0">
-<segment>
-<wire x1="358.14" y1="43.18" x2="358.14" y2="-22.86" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$56" class="0">
-<segment>
-<wire x1="259.08" y1="-22.86" x2="259.08" y2="-66.04" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="24"/>
 </segment>
 </net>
 </nets>
@@ -5231,6 +5212,10 @@ DIN A3, landscape with location and doc. field</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
